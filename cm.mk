@@ -10,4 +10,4 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 PRODUCT_NAME := cm_h631
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_DEVICE="g4stylusn" PRODUCT_NAME="g4stylusn_tmo_us" BUILD_FINGERPRINT="lge/g4stylusn_tmo_us/g4stylusn:5.0.2/LRX22G/151071241813d:user/release-keys" PRIVATE_BUILD_DESC="g4stylusn_tmo_us-user 5.0.2 LRX22G 151071241813d release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_DEVICE="g4stylusn" PRODUCT_NAME="g4stylusn_tmo_us" BUILD_FINGERPRINT="lge/g4stylusn_tmo_us/g4stylusn:5.1.1/LMY47V/15167172282f1:user/release-keys" PRIVATE_BUILD_DESC="g4stylusn_tmo_us-user 5.1.1 LMY47V 15167172282f1 release-keys"
