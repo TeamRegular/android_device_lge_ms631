@@ -4,7 +4,15 @@ bin/qmuxd
 bin/radish
 bin/rfs_access
 bin/rmt_storage
+lib/libril.so
 lib/librmnetctl.so
+lib/libuicc.so
+lib/libvss_common_idl.so
+lib/libvss_common_iface.so
+lib/libvss_nv_idl.so
+lib/libvss_nv_iface.so
+lib/libvss_resim_idl.so
+lib/libvss_resim_iface.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 vendor/lib/libmdmdetect.so
