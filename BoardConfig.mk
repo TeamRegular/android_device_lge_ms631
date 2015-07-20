@@ -17,13 +17,13 @@
 # inherit from common g4stylus
 -include device/lge/g4stylus-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g4stylus,h631
+TARGET_OTA_ASSERT_DEVICE := g4stylus,ms631
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/h631/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ms631/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h631_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_ms631_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
@@ -36,4 +36,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 11676942336
 
 # inherit from the proprietary version
--include vendor/lge/h631/BoardConfigVendor.mk
+-include vendor/lge/ms631/BoardConfigVendor.mk

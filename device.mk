@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/h631/h631-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/ms631/ms631-vendor.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
